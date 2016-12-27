@@ -45,4 +45,5 @@ try:
         driver.implicitly_wait(20)
 except:
     print("pak zavrit driver")
+    driver.implicitly_wait(5)
     driver.close()

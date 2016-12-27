@@ -43,4 +43,5 @@ driver.find_element(By.CSS_SELECTOR, css_selector).click()
 css_selector = "rel='rohlikovac'"
 driver.find_element(By.CSS_SELECTOR, css_selector).click()
 
+driver.implicitly_wait(5)
 driver.close()
